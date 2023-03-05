@@ -1,0 +1,19 @@
+{
+  "name": "assignment-tak-sesi-2-mocha-chai",
+  "version": "1.0.0",
+  "description": "TAK automation class mocha chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js --timeout 10000"
+  },
+  "author": "anisanursekararum",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "chai-http": "^4.3.0"
+  }
+}
